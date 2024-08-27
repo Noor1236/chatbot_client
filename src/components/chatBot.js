@@ -17,7 +17,7 @@ const Chatbot = () => {
         setError('');
         
         try {
-            const response = await axios.post('http://localhost:5000/api/ai/analyze', { caseDetails });
+            const response = await axios.post('https://chatbot-server-flax.vercel.app/api/ai/analyze', { caseDetails });
             setSummary(response.data.summary);
             setLegalSections(response.data.applicableSections.join('\n'));
 

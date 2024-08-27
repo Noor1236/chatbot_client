@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import WelcomePage from './components/welcomePage';
 import Chatbot from './components/chatBot';
+import './style/responsive.css';
+
 
 const App = () => {
     const [showChatbot, setShowChatbot] = useState(false);
