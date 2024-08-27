@@ -1,0 +1,112 @@
+/* index.css */
+
+/* Set body and html to fill the full viewport */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000; /* Black background */
+    font-family: Arial, sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Container for the Chatbot */
+.chatbot-container {
+    background-color: #333; /* Dark grey background for the chatbot container */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px; /* Limit the width of the chatbot container */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Light shadow for a floating effect */
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+/* Centering the form content inside the chatbot container */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Textarea styling */
+.chatbot-textarea {
+    width: 100%;
+    max-width: 100%; /* Ensure textarea doesn't overflow its container */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: #fff;
+    font-size: 16px;
+    resize: none;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Button styling */
+.chatbot-button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.chatbot-button:hover {
+    background-color: #777;
+}
+
+/* Headings */
+.chatbot-container h1, 
+.chatbot-container h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Preformatted text */
+.chatbot-container pre {
+    text-align: left;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap;
+}
+
+/* Paragraphs */
+.chatbot-container p {
+    margin: 10px 0;
+}
+
+/* Summary box styling */
+.summary-box {
+    background-color: #222; /* Dark background for the summary box */
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    text-align: left; /* Align text to the left */
+    color: #fff;
+}
+
+/* Styling for summary heading */
+.summary-box h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Paragraph styling inside the summary box */
+.summary-box p {
+    margin: 0;
+}
+
+
